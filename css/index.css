@@ -1,0 +1,403 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+body{
+    background-color: #fff;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    list-style-image: none;
+}
+.menu-item span{
+    cursor: pointer;
+}
+/* 头部开始 */
+.header{
+    width: 100%;
+    height: 124px;
+}
+.wf-wrap {
+    height: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.wf-table{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-box{
+    width: 236px;
+    height: 100%;
+    padding: 10px 10px 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.logo{
+    width: 93px;
+    height: 104px;
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.wf-td{
+    width: 788px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+.wf-td .text-box{
+    width: 100%;
+    height: 30px;
+    margin-top: 45px;
+    text-align: right;
+}
+.menu-item{
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    vertical-align: middle;   
+}
+.menu-item a{
+    color:#262626;
+    font: 600 13px/21px 微軟正黑體, Helvetica, Arial, Verdana, sans-serif;
+    display: block;
+    border: 1px solid transparent;
+    line-height: 30px;
+}
+.text-box .menu-item:hover a{
+    color: #000;
+} 
+/* 头部结束 */
+.img1-body{
+    width: 100%;
+    height: 624px;
+}
+.img1-box{
+    width: 934px;
+    height: 100%;
+    margin: 0 auto;
+}
+.moumou-body{
+    width: 100%;
+    height: 160px;
+    margin-top: 120px;
+}
+.moumou-box{
+    width: 934px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.moumou-title{
+    width: 100%;
+    height: 63px;
+}
+.h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    clear: both;
+    font-weight: normal;
+}
+.moumou-bd{
+    width: 100%;
+    height: 78px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 24px;
+}
+/* 遮罩开始 */
+.background-media{
+    width: 100%;
+    height: 442px;
+    position: absolute;
+    left: 0;
+    top: 1124px;
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgba(39,64,64,0.7);
+    background-image: url(https://ccdn.goodq.top/caches/40af4ec69b477146a4d94455f1b287bb/aHR0cDovLzU3MjMxN2JmMzEzNjMudDc0LnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wNS8zZGNhZmE3MDY2NzFhZDc1M2NlMzc0MTA5ODViNjc5Yi5qcGc_p_p100_p_3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.media-bd{
+    width: 1440px;
+    height: 278px;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+.media-bds{
+    width: 100%;
+    height: 36px;
+    padding-top: 156px;
+    text-align: center;
+}
+.info{
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    left: 44%;
+    text-align: center;
+    font-family: "trebuchet ms";
+    font-size: 11px;
+    border: 2px solid #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    transition: all .2s;
+}
+.info:hover{
+    background-color: #fff;
+    color: black;
+}
+/* 遮罩结束 */
+/* 图片2开始 */
+.img2-body{
+    width: 100%;
+    height: 800px;
+    margin-top: 658px;
+    overflow: hidden;
+}
+.img2-box{
+    width: 934px;
+    height: 702px;
+    margin: 0 auto;
+}
+/* 图片2结束 */
+/* 双击开始 */
+.sji{
+    width: 100%;
+    height: 376px;
+}
+.sji-box{
+    width: 944px;
+    height: 301px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+}
+.sji-left{
+    width: 460px;   
+}
+.sji-l-s{
+    line-height: 30px;
+    padding: 0 8px;
+}
+.sji-l-x{
+    padding: 20px 8px 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    word-break: break-all;
+    overflow-wrap: normal;
+}
+.sji-right{
+    width: 450px;
+    height: 296px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* 双击结束 */
+/* 4A开始 */
+.four{
+    width: 100%;
+    height: 418px;
+    margin-top: 60px;
+}
+.four-box{
+    width: 944px;
+    height: 294px;
+    margin: 0 auto;
+}
+.four-title{
+    text-align: center;
+}
+.four-body{
+    width: 934px;
+    margin: 50px 0;
+}
+.four-body span{
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    color:#696969;
+    font-family: 宋体;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.four-tail{
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+.infoo{
+    text-align: center;
+    font-family: "trebuchet ms";
+    font-size: 11px;
+    border: 2px solid #000;
+    padding: 12px 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    transition: all .2s;
+}
+.infoo:hover{
+    background-color: rgb(70, 70, 70);
+    color: #fff;
+}
+/* 4A结束 */
+/* 图片3开始 */
+.img3-body{
+    width: 100%;
+    height: 627px;
+}
+.img3-box{
+    width: 944px;
+    height: 100%;
+    margin: 0 auto;
+}
+.img3-box .imgbox{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    position: relative;
+}
+.img3-box .imgbox .i-box{
+    width: 20px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    color: #fff;
+    overflow: hidden;
+    transition: all .5s;
+}
+.img3-box .imgbox .i-box i{
+    font-size: 36px;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: all .5s;
+}
+.img3-box .imgbox:hover .i-box{
+    padding-top: 80px;
+    width: 50px;
+    height: 80px;
+    z-index: 2;   
+}
+.img3-box .imgbox:hover .mask{
+    opacity: 0.6;
+}
+/* 图片3结束 */
+/* 营业时间开始 */
+.time-body{
+    width: 100%;
+    height: 313px;
+    margin-top: 120px;
+}
+.time-box{
+    width: 944px;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #666666;
+}
+.time-title{
+    height: 120px;
+    margin-top: 100px;
+}
+.time-left{
+    width: 462px;
+    float: left;
+}
+.time-left span{
+    display: block;
+    line-height: 1.5em;
+}
+.time-left span:nth-child(2){
+    margin-top: 24px;
+}
+/* 营业时间结束 */
+/* 图标开始 */
+.icon-body{
+    width: 100%;
+    height: 292px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.icon-box{
+    width: 944px;
+    height: 89px;
+    margin: 0 auto;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.one{
+    width: 84px;
+    height: 84px;
+    margin-right: 60px;
+    float: left;
+}
+.one:nth-child(1){
+    margin-left: 30px;
+}
+.one i{
+    font-size: 72px;
+}
+/* 图标结束 */
+/* 底部开始 */
+.footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.footer-box{
+    width: 1024px;
+    height: 28px;
+    margin: 0 auto;
+}
+.footer-box span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(128, 128, 128);
+    font-family: arial;
+    padding: 0 50px;
+}
+/* 底部结束 */

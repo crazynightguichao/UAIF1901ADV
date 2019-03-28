@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+body{
+    background-color: #fff;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    list-style-image: none;
+}
+.menu-item span{
+    cursor: pointer;
+}
+/* 头部开始 */
+.header{
+    width: 100%;
+    height: 134px;
+    border-bottom: 1px solid #000;
+}
+.wf-wrap {
+    height: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.wf-table{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-box{
+    width: 236px;
+    height: 100%;
+    padding: 10px 10px 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.logo{
+    width: 93px;
+    height: 104px;
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.wf-td{
+    width: 788px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+.wf-td .text-box{
+    width: 100%;
+    height: 30px;
+    margin-top: 45px;
+    text-align: right;
+}
+.menu-item{
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    vertical-align: middle;
+    
+}
+.menu-item a{
+    color:#262626;
+    font: 600 13px/21px 微軟正黑體, Helvetica, Arial, Verdana, sans-serif;
+    display: block;
+    border: 1px solid transparent;
+    line-height: 30px;
+}
+.text-box .menu-item:hover a{
+    color: #000;
+} 
+/* 头部结束 */
+/* 身体开始 */
+.body{
+    width: 100%;
+    height: 900px;
+}
+.body-box{
+    width: 944px;
+    height: 840px;
+    margin: 60px auto 0;
+}
+.box-l{
+    width: 66%;
+    height: 100%;
+    float: left;
+}
+.l-title{
+    padding-right: 20px;
+}
+.l-imgs{
+    width: 580px;
+}
+.l-img{
+    width: 100%;
+    height: 290px;
+    padding: 10px;
+}
+.l-img-name{
+    height: 21px;
+    text-align:center;
+}
+.box-r{
+    width: 33%;
+    height: 448px;
+    border-left: 1px solid #8d9095;
+    float: right;
+}
+.box-rr{
+    width: 260px;
+    height: 100%;
+    margin-left: 40px;
+}
+.rr-bd{
+    margin-top: 20px;
+    padding-left: 6px;
+}
+.item{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.title2{
+    margin-top: 100px;
+}
+.rr-bd2{
+    width: 265px;
+    padding: 10px 10px 4px 10px;
+}
+.item2{
+    margin-top: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.item2 i{
+    font-weight: 800;
+}
+.item2:hover i{
+    color: #8d9095;
+}
+/* 身体结束 */
+/* 图标开始 */
+.icon{
+    width: 100%;
+    height: 100px;
+}
+.icon-box{
+    width: 300px;
+    height: 51px;
+    margin: 0 auto;
+}
+.box1{
+    width: 33.33333%;
+    height: 50px;
+    text-align: center;
+    margin-left: 0;
+    float: left;
+}
+.box1 i{
+    font-size: 42px;
+    color: #dddddd;
+}
+.box1:hover i{
+    cursor: pointer;
+    color: green;
+}
+/* 图标结束 */
+/* 底部开始 */
+.footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.footer-box{
+    width: 1024px;
+    height: 28px;
+    margin: 0 auto;
+}
+.footer-box span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(128, 128, 128);
+    font-family: arial;
+    padding: 0 50px;
+}
+/* 底部结束 */
