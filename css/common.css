@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #fff;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    list-style-image: none;
+}
+.menu-item span{
+    cursor: pointer;
+}

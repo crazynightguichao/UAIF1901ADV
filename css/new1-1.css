@@ -88,7 +88,7 @@ img{
 /* 身体开始 */
 .body{
     width: 100%;
-    height: 665px;
+    height: 800px;
 }
 .body-box{
     width: 944px;
@@ -97,11 +97,11 @@ img{
 }
 .box-l{
     width: 66%;
+    
     float: left;
 }
 .box-ll{
     width: 580px;
-    height: 800px;
     padding: 10px 10px 4px 10px;
 }
 .menu{
@@ -111,21 +111,12 @@ img{
 .nemu{
     float: left;
 }
-.nemu a{
-    color:#666666;
-    font-size:15px;
-    font-family:宋体;
-    line-height:21px;
-    cursor: pointer;
-}
-.menu span{
-    color:#686868;
-    font-size:12px;
-    float:right;
-    margin-right: 10px;
-}
-.nemu:hover i{
-    color: #8d9095;
+.ll-qfe_wrapper span{
+    display: block;
+    margin-top: 60px;
+    font-size:14px;
+    font-weight:normal;
+    
 }
 .box-r{
     width: 33%;

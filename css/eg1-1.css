@@ -1,23 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
 
-a {
-	text-decoration: none;
-}
-body{
-    background-color: #fff;
-    width: 100%;
-}
-ul{
-    list-style: none;
-    list-style-image: none;
-}
-.menu-item span{
-    cursor: pointer;
-}
 /* 头部开始 */
 .header{
     width: 100%;
@@ -88,54 +69,34 @@ img{
 /* 身体开始 */
 .body{
     width: 100%;
-    height: 665px;
+    
 }
 .body-box{
     width: 944px;
-    height: 100%;
+    
     margin: 60px auto 0;
 }
 .box-l{
     width: 66%;
     float: left;
 }
-.box-ll{
-    width: 580px;
-    height: 800px;
-    padding: 10px 10px 4px 10px;
+.l-title{
+    padding-right: 20px;
 }
-.menu{
-    width: 100%;
-    height: 36px;
-}
-.nemu{
-    float: left;
-}
-.nemu a{
-    color:#666666;
-    font-size:15px;
-    font-family:宋体;
-    line-height:21px;
-    cursor: pointer;
-}
-.menu span{
-    color:#686868;
-    font-size:12px;
-    float:right;
-    margin-right: 10px;
-}
-.nemu:hover i{
-    color: #8d9095;
+.l-bdbox{
+    height: 1052px;
+    background-color: #000;
 }
 .box-r{
     width: 33%;
-    height: 665px;
-    float: right;
+    height: 448px;
     border-left: 1px solid #8d9095;
+    float: right;
 }
 .box-rr{
-    width: 284px;
-    margin-left: 30px;
+    width: 260px;
+    height: 100%;
+    margin-left: 40px;
 }
 .rr-bd{
     margin-top: 20px;
@@ -145,23 +106,51 @@ img{
     margin-bottom: 10px;
     cursor: pointer;
 }
-.new2{
-    margin-top: 110px;
+.title2{
+    margin-top: 100px;
 }
 .rr-bd2{
-    width: 284px;
-    height: 194px;
+    width: 265px;
+    padding: 10px 10px 4px 10px;
 }
-.bd2-img{
-    padding: 10px;
+.item2{
+    margin-top: 6px;
+    padding-left: 6px;
+    cursor: pointer;
 }
-.bd2-bd{
-    text-align: center;
+.item2 i{
+    font-weight: 800;
 }
-.new22{
-    margin-top: 30px;
+.item2:hover i{
+    color: #8d9095;
 }
 /* 身体结束 */
+/* 图标开始 */
+.icon{
+    width: 100%;
+    height: 100px;
+}
+.icon-box{
+    width: 300px;
+    height: 51px;
+    margin: 0 auto;
+}
+.box1{
+    width: 33.33333%;
+    height: 50px;
+    text-align: center;
+    margin-left: 0;
+    float: left;
+}
+.box1 i{
+    font-size: 42px;
+    color: #dddddd;
+}
+.box1:hover i{
+    cursor: pointer;
+    color: green;
+}
+/* 图标结束 */
 /* 底部开始 */
 .footer{
     width: 100%;
